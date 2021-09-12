@@ -34,7 +34,8 @@ jobs:
         git config --global user.name GreenSulley
         git add .
         git commit -m "${{ steps.date.outputs.date }} Track Change" -a 
-
+        git push
+        
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
