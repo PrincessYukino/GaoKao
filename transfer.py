@@ -8,5 +8,7 @@ for root, dirs, files in os.walk("./1错题"):  # 获取当前文件夹的信息
             file) and "$" not in str(file):
             md = pydocx.PyDocX.to_html(f"{root}/{file}")
             path = f"./1错题/track/{os.path.splitext(file)[0]}.html"
+            if not os.path.exists("./1错题/track/"):
+                os.makedirs("./1错题/track/")
             with open(path,"w",encoding="utf-8") as f:
                 f.write(md)
