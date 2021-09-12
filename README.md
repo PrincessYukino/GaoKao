@@ -1,12 +1,12 @@
 <p align="center">
   <a href="https://github.com/GreenSulley/GaoKao">
-    <img src="https://cdn.jsdelivr.net/npm/skn/avatar.webp" alt="banner" height="100" width="100">
+    <img src="https://cdn.jsdelivr.net/npm/skn/avatar.webp" height="100" width="100" alt="banner" >
   </a>
 </p>
 height="200" width="200"
 <div align="center">
 
-# 2022年高考 资料
+# 2022年高考备考资料
 
 基于 KoKoYu B5 活页本整理的个人分类错题集
 <p align="center">
