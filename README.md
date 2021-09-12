@@ -1,9 +1,9 @@
 <p align="center">
   <a href="https://github.com/GreenSulley/GaoKao">
-    <img src="https://cdn.jsdelivr.net/npm/skn/avatar.webp" alt="banner">
+    <img src="https://cdn.jsdelivr.net/npm/skn/avatar.webp" alt="banner" height="100" width="100">
   </a>
 </p>
-
+height="200" width="200"
 <div align="center">
 
 # 2022年高考 资料
