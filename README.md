@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/GreenSulley/GaoKao">
-    <img src="" alt="banner">
+    <img src="https://cdn.jsdelivr.net/npm/skn/avatar.webp" alt="banner">
   </a>
 </p>
 
@@ -24,7 +24,7 @@
 
 ## 仓库内容
 
-
+仓库仅用来跟踪错题文档的更新和修改，其他持久文档请见：[绿色毛怪の学习资料](https://study.sku.moe/)
 
 ## 维护者
 
@@ -33,7 +33,7 @@
 
 ## 致谢
 
-- 
+- [pydocx](https://github.com/CenterForOpenScience/pydocx)
 
 ## 许可证
 
