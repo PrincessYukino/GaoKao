@@ -1,4 +1,4 @@
-name: Python application
+name: Docx Change Track by Transfer to Html
 
 on: [push]
 
@@ -29,7 +29,7 @@ jobs:
         run: |
           echo "::set-output name=date::$(date +'%Y-%m-%d')"
 
-      - name: commit all changes
+      - name: Commit all changes
         run: |
           git config --global user.email sukeycz@gmail.com
           git config --global user.name GreenSulley
