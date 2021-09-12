@@ -23,12 +23,9 @@ jobs:
         architecture: 'x64'
         
     - name: Track up docx change
-      run: |
-        python transfer.py
-    
-    - name: Get current date
       id: datetime
       run: |
+        python transfer.py
         echo "::set-output name=date::$(date +'%Y-%m-%d')"
 
     - name: commit
