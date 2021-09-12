@@ -22,16 +22,15 @@ jobs:
         python-version: 3.7
         architecture: 'x64'
         
-    - name: Track up docx change
-      id: datetime
-      run: |
-        python transfer.py
-        echo "::set-output name=date::$(date +'%Y-%m-%d')"
-
     - name: commit
       run: |
         git config --global user.email sukeycz@gmail.com
         git config --global user.name GreenSulley
         git add .
-        git commit -m "${{ steps.date.outputs.date }} Track Change" -a 
+        git commit -m "Track Change" -a 
         git push
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets._GITHUB_TOKEN }}
