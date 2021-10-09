@@ -5,7 +5,7 @@
 </p>
 <div align="center">
 
-# 2022年高考备考资料
+# 2022年高考备考资料——错题
 
 基于 KoKoYu B5 活页本整理的个人分类错题集
 <p align="center">
@@ -21,13 +21,17 @@
 </p>
 </div>
 
-## 仓库内容
+## 第一次市统考
+### 倒计时
+![第一次市统考倒计时](https://pure-svg-countdown.skk.moe/timer?title=%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B8%82%E7%BA%A7%E7%BB%9F%E8%80%83&finish=Over&time=2021-11-09T12%3A00%3A00.000Z#.png)
 
-仓库仅用来跟踪错题文档的更新和修改，其他持久文档请见：[绿色毛怪の学习资料](https://study.sku.moe/)
+### 成绩
 
-## 维护者
+|语文|数学|英语|物理|化学|生物|
+|  ----  | ----  |----  |----  |----  |----  |
+| | | | | | |
 
-- [GreenSulley](https://github.com/GreenSulley/)
+
 
 
 ## 致谢
@@ -36,7 +40,5 @@
 
 ## 许可证
 
-除非另有说明，否则所有数据和代码均受 [MIT License](https://github.com/GreenSulley/Gaokao/blob/main/LICENSE)
-许可并处于公共领域。
+除非另有说明，否则所有数据和代码均受 [MIT License](https://github.com/GreenSulley/Gaokao/blob/main/LICENSE)许可并处于公共领域。
 
-本仓库中的图片均来自于[]()，并受其条款和许可保护。
