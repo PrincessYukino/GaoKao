@@ -29,12 +29,15 @@ jobs:
         run: |
           echo "::set-output name=date::$(date +'%Y-%m-%d')"
 
-      - name: Commit all changes
+      - name: Commit
+        env:
+          $USER_EMAIL: ${{ secrets.USER_EMAIL }}
+          $USER_NAME: ${{ secrets.USER_NAME }}
         run: |
-          git config --global user.email sukeycz@gmail.com
-          git config --global user.name GreenSulley
+          git config --global user.email ${{ secrets.USER_EMAIL }}
+          git config --global user.name ${{ secrets.USER_NAME }}
           git add .
-          git commit -m "${{ steps.datetime.outputs.date }} Track Change" -a 
+          git commit -m "feat: track change ${{ steps.datetime.outputs.date }}" -a
 
       - name: Push changes
         uses: ad-m/github-push-action@master
