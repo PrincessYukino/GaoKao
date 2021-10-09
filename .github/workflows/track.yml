@@ -37,7 +37,7 @@ jobs:
           git config --global user.email ${{ secrets.USER_EMAIL }}
           git config --global user.name ${{ secrets.USER_NAME }}
           git add .
-          git commit -m "feat: track change ${{ steps.datetime.outputs.date }}" -a
+          git commit -m "feat: track change ${{ steps.datetime.outputs.date }}" -a --allow-empty
 
       - name: Push changes
         uses: ad-m/github-push-action@master
