@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="https://github.com/GreenSulley/GaoKao">
-    <img src="https://cdn.jsdelivr.net/npm/skn/avatar.webp" height="100" width="100" alt="banner">
-  </a>
-</p>
 <div align="center">
 
 # 2022年高考备考资料——错题
